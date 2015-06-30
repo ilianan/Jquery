@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/tab.js"></script>
+	<title>Photographer</title>
+	<meta charset="UTF-8">
+	
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<h1><a class='logo'href="#home"><img src="images/logo.png"/></a></h1>
+			</div>
+			<nav>
+				<ul class="menu">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#aboutMe">About Me</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact Me</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="slider">
+		<ul class="slides">
+			<li class="slide">
+				<h1>The Best photos</h1>
+				<p class="lead">Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<img src="images/img1.jpg"/>x
+			</li>
+			<li class="slide"><img src="images/img4.jpg"/></li>
+			<li class="slide"><img src="images/img3.jpg"/></li>
+			<li class="slide"></li>
+		</ul>
+	</div>
+	
+	<section id='aboutMe'>
+		<div class="container">
+			<div class="left">
+				<h1>I'm the best photographer</h1>
+				<h2>Know me a little more</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat duis aute irure dolor in reprehenderit.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore </p>
+			</div>	
+			<div class="right"><img class='photographer'src="images/photographer.png" alt="photographer"/></div>
+		</div>
+	</section>
+	<section id='portfolio'>
+		<div class="container">
+			<h1>My Portfolio</h1>
+			<h2>Look my latest work</h2>
+			<div class="tab-panels">
+				<ul class="tabs">
+					<li rel="panel1"class="active">All</li>
+					<li rel="panel2">Animals</li>
+					<li rel="panel3">People</li>
+					<li rel="panel4">Landscape</li>
+				</ul>
+				<div id="panel1" class="panel active">
+					<img src="images/tab1.jpg"/>
+					<img src="images/tab2.jpg"/>
+					<img src="images/tab3.jpg"/>
+					<img src="images/tab4.jpg"/>
+					<img src="images/tab5.jpg"/>
+					<img src="images/tab6.jpg"/>
+					<img src="images/tab7.jpg"/>
+					<img src="images/tab8.jpg"/>
+					<img src="images/tab9.jpg"/>
+				</div>
+				<div id="panel2" class="panel">
+					<img src="images/tab3.jpg"/>
+					<img src="images/tab1.jpg"/>
+					<img src="images/tab5.jpg"/>
+					<img src="images/tab7.jpg"/>
+					<img src="images/tab8.jpg"/>
+					<img src="images/tab9.jpg"/>
+				</div>
+				<div id="panel3" class="panel">
+					<img src="images/tab2.jpg"/>
+					<img src="images/tab5.jpg"/>
+					<img src="images/tab3.jpg"/>
+					<img src="images/tab7.jpg"/>
+					<img src="images/tab8.jpg"/>
+					<img src="images/tab9.jpg"/>
+				</div>
+				<div id="panel4" class="panel">
+					<img src="images/tab7.jpg"/>
+					<img src="images/tab6.jpg"/>
+					<img src="images/tab3.jpg"/>
+					<img src="images/tab4.jpg"/>
+					<img src="images/tab8.jpg"/>
+					<img src="images/tab9.jpg"/>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<h1>Contact Me</h1>
+			<h2>Share your thoughts with me</h2>
+			<form>
+				<input type="text" placeholder="Name">
+				<input type="text" placeholder="E-mail">
+				<h4>Message</h4><textarea name="Message"></textarea>
+				<button>Send Message</button>
+			</form>
+		</div>
+	</section>
+	<!--
+	<footer>
+		<div class="container">
+			<div class="social">
+				<i class="fa fa-facebook fa-3x"></i>
+				<i class="fa fa-twitter fa-3x"></i>
+				<i class="fa fa-linkedin fa-3x"></i>
+			</div>
+		</div>
+	</footer> -->
+</body>
+</html>
